@@ -1,6 +1,6 @@
 // Random Number 
 function getPinNum() {
-    const randomNum = Math.random() * 200000;
+    const randomNum = Math.random() * (200000 - 300000);
     const pin = (randomNum + '').split('.')[0];
 
     if (pin.length === 5) {
